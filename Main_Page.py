@@ -7,7 +7,7 @@ st.markdown(''':green[Welcome] to :rainbow[Amanze's website!]
 My favorite color is `#10A810`, a shade of :green-background[green]. :rainbow-background[What's yours?]''')
 
 st.header(':violet[The images, as requested.]')
-st.page_link("pages\Pictures.py", label="See them here", icon="🖼️")
+st.page_link("pages/Pictures.py", label="See them here", icon="🖼️")
 
 response = rq.get("https://www.youtube.com/watch?v=rkxqt9SVO4E")
 r = rq.head('https://www.youtube.com/watch?v=rkxqt9SVO4E')
